@@ -20,7 +20,7 @@ CREATE TABLE payment (
   code varchar(25)
 );
 
-CREATE TABLE `review` (
+CREATE TABLE review (
  id int AUTO_INCREMENT PRIMARY KEY,
  materials varchar(100),
  depth varchar(100),
