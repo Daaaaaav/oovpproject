@@ -1,0 +1,30 @@
+Database: oovp_applicants
+
+applicants > payment > review
+
+CREATE TABLE applicants (
+  id int AUTO_INCREMENT PRIMARY KEY,
+  name vaarchar(50),
+  pass varchar(3),
+  email varchar(50),
+  course varchar(35),
+  no varchar(3),
+  services varchar(500),
+  total double(25,2)
+);
+
+CREATE TABLE payment (
+  id int AUTO_INCREMENT PRIMARY KEY,
+  price double(25,2),
+  method varchar(25),
+  code varchar(25)
+);
+
+CREATE TABLE `review` (
+ id int AUTO_INCREMENT PRIMARY KEY,
+ materials varchar(100),
+ depth varchar(100),
+ clarity varchar(100),
+ projects varchar(100),
+ explanation varchar(500)
+); 
