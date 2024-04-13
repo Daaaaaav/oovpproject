@@ -4,7 +4,7 @@ applicants > payment > review
 
 CREATE TABLE applicants (
   id int AUTO_INCREMENT PRIMARY KEY,
-  name vaarchar(50),
+  name varchar(50),
   pass varchar(3),
   email varchar(50),
   course varchar(35),
